@@ -82,7 +82,6 @@ user-review-analysis/
    - Validate review text completeness
    - Check for duplicate entries
    - Assess language distribution
-   - Verify restaurant ID consistency
 
 ### Phase 2: Aspect Extraction
 3. **BERT-based Question Answering** (`bert_aspect_question_answering_pipeline.ipynb`)
