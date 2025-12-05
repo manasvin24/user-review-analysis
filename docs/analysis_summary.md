@@ -15,7 +15,7 @@ Based on the TinyRoBERTa model's sentiment predictions, we observe distinct patt
 * **5-star reviews are the lowest at 14.1%**, confirming weak positive sentiment.
 * The descending trend line visually confirms declining satisfaction as ratings improve.
 
-![Food Sentiment Distribution](../imgs/sentiment%20label%20distribution/food_sentiment_label_distribution.png)
+![Food Sentiment Distribution](../imgs/sentiment_label_distribution/food_sentiment_label_distribution.png)
 
 ### **Ambiance**
 * Ambiance displays a **strong positive skew** — the only aspect with net positive sentiment.
@@ -23,7 +23,7 @@ Based on the TinyRoBERTa model's sentiment predictions, we observe distinct patt
 * 1-star reviews are significant (21.6%), but the **net sentiment is positive (+10.4%)**.
 * 2-star reviews are notably low (10.7%), creating a U-shaped distribution (polarized but positive-leaning).
 
-![Ambiance Sentiment Distribution](../imgs/sentiment%20label%20distribution/ambiance_sentiment_label_distribution.png)
+![Ambiance Sentiment Distribution](../imgs/sentiment_label_distribution/ambiance_sentiment_label_distribution.png)
 
 ### **Service**
 * Service sentiment is **highly polarized** with extreme ratings dominating.
@@ -31,7 +31,7 @@ Based on the TinyRoBERTa model's sentiment predictions, we observe distinct patt
 * **5-star reviews are second-highest at 22.9%**, but still create a **net negative sentiment (-8.3%)**.
 * This bimodal distribution indicates **inconsistent service quality** — customers either love it or hate it.
 
-![Service Sentiment Distribution](../imgs/sentiment%20label%20distribution/service_sentiment_label_distribution.png)
+![Service Sentiment Distribution](../imgs/sentiment_label_distribution/service_sentiment_label_distribution.png)
 
 ### **Overall Insights**
 * **Ambiance is the only strong point** — customers consistently appreciate the atmosphere.
@@ -73,20 +73,20 @@ Based on the TinyRoBERTa model's sentiment predictions, we observe distinct patt
 - **Negative phrases**: "food quality", "taste", "bad taste", "no taste".
 - **Insight**: Taste consistency is the single most critical factor.
 
-![Food Phrase Analysis](../imgs/phrase_analyse/food_phrase_analysis.png)
+![Food Phrase Analysis](../imgs/phrase_analysis/food_phrase_analysis.png)
 
 ### Ambiance
 - **Aspect leakage detected**: Top phrases are almost entirely **food-related** (e.g., "delicious", "pizza").
 - **Insight**: Phrase-level analysis for Ambiance is unreliable due to model confusion; rely on sentiment distribution instead.
 
-![Ambiance Phrase Analysis](../imgs/phrase_analyse/ambiance_phrase_analysis.png)
+![Ambiance Phrase Analysis](../imgs/phrase_analysis/ambiance_phrase_analysis.png)
 
 ### Service
 - **Positive phrases**: "excellent", "quality", "delivery".
 - **Negative phrases**: "delivery", "quality", "refund", "poor service".
 - **Insight**: Service sentiment is **delivery-dominated**. "Delivery" appears 4x more in negative reviews than positive ones.
 
-![Service Phrase Analysis](../imgs/phrase_analyse/service_phrase_analysis.png)
+![Service Phrase Analysis](../imgs/phrase_analysis/service_phrase_analysis.png)
 
 ---
 
